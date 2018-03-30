@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+		<link rel="stylesheet" href="bootstrap.css" />
+		<link rel="stylesheet" href="materialize.css" />
+		<style>			
+		#dd{
+				text-decoration: none;
+				display: inline-block;
+				padding: 5px;
+				font-size: 25px;
+				color: #ffffff;
+ 
+			}
+		form{
+			background-color: #e485ab ;
+			width: 75%;
+			height: auto;
+			font-size: 20px;
+			padding: 50px;
+			margin-left: 180px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+		}
+		input[type=submit]{
+			width: 50%;
+			height: 35px;
+			margin-left: 240px;
+			margin-bottom: 20px;
+			border-radius: 25px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+		}
+		
+		#nav1{
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+		}
+		</style>
+	</head>
+	<body>
+	<nav class="headernav_main  fix " id="nav1" >
+		<ul class="navbar-header navbar_brand_noswitch" >
+			<li class="navbar-brand" itemscope=""><a href="#" id="dd" >Practice_AT_Job's</a></li>
+			
+		</ul>
+		<ul style="float: right">
+			<li ><a href="#">Home</a></li>
+			<li ><a href="#">Insert-Job's</a></li>
+			<li ><a href="#">Insert-Resume</a></li>
+			<li ><a href="#">Sign-In</a></li>
+			<li ><a href="#">Sign-Up</a></li>
+			
+		</ul>
+			
+		</nav><br/>
+		<form method="post" action="insert_candidate.php">
+			Degree:<input type="text" name="deg" placeholder="Degree..." /><br/>
+			Passing Year:<input type="text" name="poy" placeholder="Year of pasing..." /><br/>
+			Univercity:<input type="text" name="uni" placeholder="Univercity..." /><br/>
+			Splity:<input type="text" name="spty" placeholder="Splity" /><br/>
+			Skills:<input type="text" name="skl" placeholder="Skills" /><br/>
+			<input type="submit" value="Insert" placeholder="Button" />
+		</form>
+		
+	</body>
+</html>

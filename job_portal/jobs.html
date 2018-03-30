@@ -1,0 +1,44 @@
+<html>
+<head>
+	
+	<link rel="stylesheet" href="materialize.css" >
+	<style>
+		form{
+			
+			width: 75%;
+			height: auto;
+			background-color: #a5d8d1;
+			margin-top: 100px;
+			margin-left: 200px;
+			padding: 100px;
+		}
+		input[type=submit]{
+			width: 50%;
+			height: 50px;
+			border-radius: 25px;
+			margin-left: 180px;
+		}
+	</style>
+	
+</head>
+<body>
+  <form action="jobs.php" >
+    Title:<input type="text" name="title" placeholder="Title..." /><br/>
+	Profile:<input type="text" name="prof" placeholder="Profile..." /><br/>
+    Company:<input type="text" name="comp" placeholder="Company" /><br/>
+    Eligiblity:<input type="text" name="elig" placeholder="Eligiblity..." /><br/>
+    Openings:<input type="number" name="open" placeholder="Opneings..." /><br/>
+    Launch_Date:<input type="date" name="ld" placeholder="Launch_Date..." /><br/>
+    Closing_Date:<input type="date" name="cl1" /><br/>
+    Location:<input type="text" name="location" /><br/>
+    Inter_View_Date:<input type="date" name="inter1" /><br/>
+    Inter_View_Time:<input type="time" name="inter2" /><br/>
+    Status:<input type="text" name="status" /><br/>
+    Salary_Range:<input type="number" name="salary" /><br/>
+    Age:<input type="number" name="age" /><br/>
+    
+    <input type="submit" value="Insert" /><br/>
+	
+  </form>
+</body>
+</html>
